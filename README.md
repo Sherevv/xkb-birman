@@ -3,6 +3,8 @@
 # xkb-birman
 Birman typography layouts (ver. 3.7) for linux
 
+### Standard xkb `typo` and other solutions
+
 Xkb already have `typo` option that similar to [Birman's layout](https://ilyabirman.ru/projects/typography-layout/)
 and can be using with any other layouts. 
 In some distros it can be enabled from DE GUI apps but XFCE (on november 2021).
@@ -43,7 +45,7 @@ and you can apply layout on any other lang (not only us and ru)
 and flag in applet should be work [2] like with `misc: typo`.
 
 
-###Installation:
+### Installation:
 
 ```bash
 # clone this repo (or just download it)
