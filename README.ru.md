@@ -64,7 +64,7 @@ cp birman ~/.config/xkb/symbols/
 Добавьте следующий код на выполнение при загрузке системы.
 
 ```bash
-setxkbmap -layout "us,ru" -option "grp:alt_shift_toggle,lv3:ralt_switch,misc:birman" -print | xkbcomp -I${HOME}/.config/xkb - $DISPLAY
+setxkbmap -layout "us+birman,ru:2+birman" -option "grp:alt_shift_toggle,lv3:ralt_switch" -print | xkbcomp -I${HOME}/.config/xkb - $DISPLAY
 ```
 
 `grp:alt_shift_toggle` означает, что переключение раскладки осуществляется комбинацией `Alt+Shit`. 
