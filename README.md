@@ -35,7 +35,10 @@ setxkbmap -layout "us,ru" -option "grp:alt_shift_toggle,lv3:ralt_switch,misc:typ
 
 You should run  this command at start of x session (e.x. in `~/.xprofile`).
 
-Difference of this repo layout from xkb `typo` layout is that this layout exactly corresponds to Birman's version 3.7.
+Difference of this repo layout from xkb `typo` layout is that this layout exactly corresponds to Birman's version 3.7. 
+Compare youself: 
+[Xkb Typo Layout](http://www.keyboard-layout-editor.com/#/gists/fa53295a41acaabfdd26ec579e7fef00), 
+[Birman Layout](http://www.keyboard-layout-editor.com/#/gists/d6688ffd91801960f0cc66aa615c1797)
 
 Greate thanks authors of repos:
 

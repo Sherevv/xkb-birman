@@ -37,6 +37,9 @@ setxkbmap -layout "us,ru" -option "grp:alt_shift_toggle,lv3:ralt_switch,misc:typ
 Эту команду надо запускать вместе со стартом X сессии (например, прописать в файле `~/.xprofile`).
 
 Данная раскладка отличается от `typo` тем, что она полностью соответствует раскладке Бирмана версии 3.7.
+Сравните самостоятельно:
+[Раскладка Xkb Typo](http://www.keyboard-layout-editor.com/#/gists/fa53295a41acaabfdd26ec579e7fef00),
+[Раскладка Бирмана](http://www.keyboard-layout-editor.com/#/gists/714029315f63eac7364d7eb3c413ef3c)
 
 Огромная благодарность авторам следующих репозиториев:
 
