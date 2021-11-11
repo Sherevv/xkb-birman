@@ -65,6 +65,10 @@ Add this code to run with session start
 setxkbmap -layout "us+birman,ru:2+birman" -option "grp:alt_shift_toggle,lv3:ralt_switch" -print | xkbcomp -I${HOME}/.config/xkb - $DISPLAY
 ```
 
+Or you may use install script. It creates `~/.config/xkb/symbols/` dir, copies `birman` file and adds `setxkbmap` command to `~/.xprofile`
+```bash
+./install.sh
+```
 
 `grp:alt_shift_toggle` means switch layouts by press `Alt+Shit`. You may set up other keys,
 see other options in `/usr/share/X11/xkb/rules/base.lst` file under `! option` block.
