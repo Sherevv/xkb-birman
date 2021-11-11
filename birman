@@ -6,61 +6,61 @@ default partial
 xkb_symbols "base" {
 
     // 1st keyboard row
-    key <TLDE> { [  NoSymbol,    NoSymbol,              NoSymbol,            dead_grave  ] }; // "~" //   `
-    key <AE01> { [         1,      exclam,           onesuperior,            exclamdown  ] }; // "1" // ¹ ¡
-    key <AE02> { [         2,    quotedbl,           twosuperior,               onehalf  ] }; // "2" // ² ½
-    key <AE03> { [         3,  numerosign,         threesuperior,              onethird  ] }; // "3" // ³ ⅓
-    key <AE04> { [         4,   semicolon,                dollar,            onequarter  ] }; // "4" // $ ¼
-    key <AE05> { [         5,     percent,                 U2030,              NoSymbol  ] }; // "5" // ‰
-    key <AE06> { [         6,       colon,               uparrow,       dead_circumflex  ] }; // "6" // ↑ ^
-    key <AE07> { [         7,    question,             ampersand,          questiondown  ] }; // "7" // & ¿
-    key <AE08> { [         8,    asterisk,              infinity,             oneeighth  ] }; // "8" // ∞ ⅛
-    key <AE09> { [         9,   parenleft,             leftarrow,                  less  ] }; // "9" // ← <
-    key <AE10> { [         0,  parenright,            rightarrow,               greater  ] }; // "0" // → >
-    key <AE11> { [     minus,  underscore,                emdash,                endash  ] }; // "-" // — –
-    key <AE12> { [     equal,        plus,              notequal,             plusminus  ] }; // "=" // ≠ ±
+    key <TLDE> { [  NoSymbol,  NoSymbol,              NoSymbol,            dead_grave  ] }; // "~" //   `
+    key <AE01> { [  NoSymbol,  NoSymbol,           onesuperior,            exclamdown  ] }; // "1" // ¹ ¡
+    key <AE02> { [  NoSymbol,  NoSymbol,           twosuperior,               onehalf  ] }; // "2" // ² ½
+    key <AE03> { [  NoSymbol,  NoSymbol,         threesuperior,              onethird  ] }; // "3" // ³ ⅓
+    key <AE04> { [  NoSymbol,  NoSymbol,                dollar,            onequarter  ] }; // "4" // $ ¼
+    key <AE05> { [  NoSymbol,  NoSymbol,                 U2030,              NoSymbol  ] }; // "5" // ‰
+    key <AE06> { [  NoSymbol,  NoSymbol,               uparrow,       dead_circumflex  ] }; // "6" // ↑ ^
+    key <AE07> { [  NoSymbol,  NoSymbol,             ampersand,          questiondown  ] }; // "7" // & ¿
+    key <AE08> { [  NoSymbol,  NoSymbol,              infinity,             oneeighth  ] }; // "8" // ∞ ⅛
+    key <AE09> { [  NoSymbol,  NoSymbol,             leftarrow,                  less  ] }; // "9" // ← <
+    key <AE10> { [  NoSymbol,  NoSymbol,            rightarrow,               greater  ] }; // "0" // → >
+    key <AE11> { [  NoSymbol,  NoSymbol,                emdash,                endash  ] }; // "-" // — –
+    key <AE12> { [  NoSymbol,  NoSymbol,              notequal,             plusminus  ] }; // "=" // ≠ ±
 
     // 2nd keyboard row
-    key <AD01> { [  NoSymbol,    NoSymbol,              NoSymbol,            dead_breve  ] }; // "q" //   ˘
-    key <AD02> { [  NoSymbol,    NoSymbol,                 U2713,               uparrow  ] }; // "w" // ✓ ↑
-    key <AD03> { [  NoSymbol,    NoSymbol,              EuroSign,                 U2325  ] }; // "e" // € ⌥
-    key <AD04> { [  NoSymbol,    NoSymbol,            registered,        dead_abovering  ] }; // "r" // ® °
-    key <AD05> { [  NoSymbol,    NoSymbol,             trademark,              NoSymbol  ] }; // "t" // ™
-    key <AD06> { [  NoSymbol,    NoSymbol,                 U0463,                 U0462  ] }; // "y" // ѣ Ѣ
-    key <AD07> { [  NoSymbol,    NoSymbol,                 U0475,                 U0474  ] }; // "u" // ѵ Ѵ
-    key <AD08> { [  NoSymbol,    NoSymbol,           Ukrainian_i,           Ukrainian_I  ] }; // "i" // і І
-    key <AD09> { [  NoSymbol,    NoSymbol,                 U0473,                 U0472  ] }; // "o" // ѳ Ѳ
-    key <AD10> { [  NoSymbol,    NoSymbol,               minutes,               seconds  ] }; // "p" // ′ ″
-    key <AD11> { [  NoSymbol,    NoSymbol,           bracketleft,             braceleft  ] }; // "[" // [ {
-    key <AD12> { [  NoSymbol,    NoSymbol,          bracketright,            braceright  ] }; // "]" // ] }
+    key <AD01> { [  NoSymbol,  NoSymbol,              NoSymbol,            dead_breve  ] }; // "q" //   ˘
+    key <AD02> { [  NoSymbol,  NoSymbol,                 U2713,               uparrow  ] }; // "w" // ✓ ↑
+    key <AD03> { [  NoSymbol,  NoSymbol,              EuroSign,                 U2325  ] }; // "e" // € ⌥
+    key <AD04> { [  NoSymbol,  NoSymbol,            registered,        dead_abovering  ] }; // "r" // ® °
+    key <AD05> { [  NoSymbol,  NoSymbol,             trademark,              NoSymbol  ] }; // "t" // ™
+    key <AD06> { [  NoSymbol,  NoSymbol,                 U0463,                 U0462  ] }; // "y" // ѣ Ѣ
+    key <AD07> { [  NoSymbol,  NoSymbol,                 U0475,                 U0474  ] }; // "u" // ѵ Ѵ
+    key <AD08> { [  NoSymbol,  NoSymbol,           Ukrainian_i,           Ukrainian_I  ] }; // "i" // і І
+    key <AD09> { [  NoSymbol,  NoSymbol,                 U0473,                 U0472  ] }; // "o" // ѳ Ѳ
+    key <AD10> { [  NoSymbol,  NoSymbol,               minutes,               seconds  ] }; // "p" // ′ ″
+    key <AD11> { [  NoSymbol,  NoSymbol,           bracketleft,             braceleft  ] }; // "[" // [ {
+    key <AD12> { [  NoSymbol,  NoSymbol,          bracketright,            braceright  ] }; // "]" // ] }
 
     // 3rd keyboard row
-    key <AC01> { [  NoSymbol,    NoSymbol,                 U2248,                 U2318  ] }; // "a" // ≈ ⌘
-    key <AC02> { [  NoSymbol,    NoSymbol,               section,                 U21E7  ] }; // "s" // § ⇧
-    key <AC03> { [  NoSymbol,    NoSymbol,                degree,                 U2300  ] }; // "d" // ° ⌀
-    key <AC04> { [  NoSymbol,    NoSymbol,              sterling,              NoSymbol  ] }; // "f" // £
-    key <AC05> { [  NoSymbol,    NoSymbol,              NoSymbol,                 UF8FF  ] }; // "g" //   
-    key <AC06> { [  NoSymbol,    NoSymbol,                 U20BD,      dead_doubleacute  ] }; // "h" // ₽ ˝
-    key <AC07> { [  NoSymbol,    NoSymbol,    doublelowquotemark,              NoSymbol  ] }; // "j" // „
-    key <AC08> { [  NoSymbol,    NoSymbol,   leftdoublequotemark,   leftsinglequotemark  ] }; // "k" // “ ‘
-    key <AC09> { [  NoSymbol,    NoSymbol,  rightdoublequotemark,  rightsinglequotemark  ] }; // "l" // ” ’
-    key <AC10> { [  NoSymbol,    NoSymbol,   leftsinglequotemark,        dead_diaeresis  ] }; // ";" // ‘ ¨
-    key <AC11> { [  NoSymbol,    NoSymbol,  rightsinglequotemark,              NoSymbol  ] }; // "'" // ’
+    key <AC01> { [  NoSymbol,  NoSymbol,                 U2248,                 U2318  ] }; // "a" // ≈ ⌘
+    key <AC02> { [  NoSymbol,  NoSymbol,               section,                 U21E7  ] }; // "s" // § ⇧
+    key <AC03> { [  NoSymbol,  NoSymbol,                degree,                 U2300  ] }; // "d" // ° ⌀
+    key <AC04> { [  NoSymbol,  NoSymbol,              sterling,              NoSymbol  ] }; // "f" // £
+    key <AC05> { [  NoSymbol,  NoSymbol,              NoSymbol,                 UF8FF  ] }; // "g" //   
+    key <AC06> { [  NoSymbol,  NoSymbol,                 U20BD,      dead_doubleacute  ] }; // "h" // ₽ ˝
+    key <AC07> { [  NoSymbol,  NoSymbol,    doublelowquotemark,              NoSymbol  ] }; // "j" // „
+    key <AC08> { [  NoSymbol,  NoSymbol,   leftdoublequotemark,   leftsinglequotemark  ] }; // "k" // “ ‘
+    key <AC09> { [  NoSymbol,  NoSymbol,  rightdoublequotemark,  rightsinglequotemark  ] }; // "l" // ” ’
+    key <AC10> { [  NoSymbol,  NoSymbol,   leftsinglequotemark,        dead_diaeresis  ] }; // ";" // ‘ ¨
+    key <AC11> { [  NoSymbol,  NoSymbol,  rightsinglequotemark,              NoSymbol  ] }; // "'" // ’
 
     // 4th keyboard row
-    key <AB01> { [  NoSymbol,    NoSymbol,              NoSymbol,          dead_cedilla  ] }; // "z" //   ¸
-    key <AB02> { [  NoSymbol,    NoSymbol,              multiply,        periodcentered  ] }; // "x" // × ·
-    key <AB03> { [  NoSymbol,    NoSymbol,             copyright,                  cent  ] }; // "c" // © ¢
-    key <AB04> { [  NoSymbol,    NoSymbol,             downarrow,            dead_caron  ] }; // "v" // ↓ ˇ
-    key <AB05> { [  NoSymbol,    NoSymbol,                ssharp,                 U1E9E  ] }; // "b" // ß ẞ
-    key <AB06> { [  NoSymbol,    NoSymbol,              NoSymbol,            dead_tilde  ] }; // "n" //   ~
-    key <AB07> { [  NoSymbol,    NoSymbol,                 U2212,    enfilledcircbullet  ] }; // "m" // − •
-    key <AB08> { [  NoSymbol,    NoSymbol,         guillemotleft,    doublelowquotemark  ] }; // "," // « „
-    key <AB09> { [  NoSymbol,    NoSymbol,        guillemotright,   leftdoublequotemark  ] }; // "." // » “
-    key <AB10> { [    period,       comma,              ellipsis,            dead_acute  ] }; // "/" // … ´
+    key <AB01> { [  NoSymbol,  NoSymbol,              NoSymbol,          dead_cedilla  ] }; // "z" //   ¸
+    key <AB02> { [  NoSymbol,  NoSymbol,              multiply,        periodcentered  ] }; // "x" // × ·
+    key <AB03> { [  NoSymbol,  NoSymbol,             copyright,                  cent  ] }; // "c" // © ¢
+    key <AB04> { [  NoSymbol,  NoSymbol,             downarrow,            dead_caron  ] }; // "v" // ↓ ˇ
+    key <AB05> { [  NoSymbol,  NoSymbol,                ssharp,                 U1E9E  ] }; // "b" // ß ẞ
+    key <AB06> { [  NoSymbol,  NoSymbol,              NoSymbol,            dead_tilde  ] }; // "n" //   ~
+    key <AB07> { [  NoSymbol,  NoSymbol,                 U2212,    enfilledcircbullet  ] }; // "m" // − •
+    key <AB08> { [  NoSymbol,  NoSymbol,         guillemotleft,    doublelowquotemark  ] }; // "," // « „
+    key <AB09> { [  NoSymbol,  NoSymbol,        guillemotright,   leftdoublequotemark  ] }; // "." // » “
+    key <AB10> { [  NoSymbol,  NoSymbol,              ellipsis,            dead_acute  ] }; // "/" // … ´
 
     // 5th keyboard row
-    key <SPCE> { [     space,       space,          nobreakspace,          nobreakspace  ] }; // " " //     (nbsp)
+    key <SPCE> { [     space,     space,          nobreakspace,          nobreakspace  ] }; // " " //     (nbsp)
 
     // Reference
     // U+2030 PER MILLE SIGN
