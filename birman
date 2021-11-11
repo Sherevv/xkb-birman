@@ -15,14 +15,14 @@ xkb_symbols "base" {
     key <AE06> { [  NoSymbol,  NoSymbol,               uparrow,       dead_circumflex  ] }; // "6" // ↑ ^
     key <AE07> { [  NoSymbol,  NoSymbol,             ampersand,          questiondown  ] }; // "7" // & ¿
     key <AE08> { [  NoSymbol,  NoSymbol,              infinity,             oneeighth  ] }; // "8" // ∞ ⅛
-    key <AE09> { [  NoSymbol,  NoSymbol,             leftarrow,                  less  ] }; // "9" // ← <
-    key <AE10> { [  NoSymbol,  NoSymbol,            rightarrow,               greater  ] }; // "0" // → >
+    key <AE09> { [  NoSymbol,  NoSymbol,             leftarrow,                 U2039  ] }; // "9" // ← ‹
+    key <AE10> { [  NoSymbol,  NoSymbol,            rightarrow,                 U203A  ] }; // "0" // → ›
     key <AE11> { [  NoSymbol,  NoSymbol,                emdash,                endash  ] }; // "-" // — –
     key <AE12> { [  NoSymbol,  NoSymbol,              notequal,             plusminus  ] }; // "=" // ≠ ±
 
     // 2nd keyboard row
     key <AD01> { [  NoSymbol,  NoSymbol,              NoSymbol,            dead_breve  ] }; // "q" //   ˘
-    key <AD02> { [  NoSymbol,  NoSymbol,                 U2713,               uparrow  ] }; // "w" // ✓ ↑
+    key <AD02> { [  NoSymbol,  NoSymbol,                 U2713,                 U2303  ] }; // "w" // ✓ ⌃
     key <AD03> { [  NoSymbol,  NoSymbol,              EuroSign,                 U2325  ] }; // "e" // € ⌥
     key <AD04> { [  NoSymbol,  NoSymbol,            registered,        dead_abovering  ] }; // "r" // ® °
     key <AD05> { [  NoSymbol,  NoSymbol,             trademark,              NoSymbol  ] }; // "t" // ™
@@ -64,7 +64,10 @@ xkb_symbols "base" {
 
     // Reference
     // U+2030 PER MILLE SIGN
+    // U+2039 SINGLE LEFT-POINTING ANGLE QUOTATION MARK
+    // U+203A SINGLE RIGHT-POINTING ANGLE QUOTATION MARK
     // U+2713 CHECK MARK
+    // U+2303 UP ARROWHEAD
     // U+2325 MAC OPTION KEY
     // U+0463 CYRILLIC SMALL LETTER YAT
     // U+0462 CYRILLIC CAPITAL LETTER YAT
