@@ -3,6 +3,8 @@
 # xkb-birman
 Birman typography layouts (ver. 3.7) for linux
 
+![Birman typography layout image](kle/birman-en.png)
+
 ### Standard xkb `typo` and other solutions
 
 Xkb already have `typo` option that similar to [Birman's layout](https://ilyabirman.ru/projects/typography-layout/)
@@ -65,11 +67,13 @@ Add this code to run with session start
 setxkbmap -layout "us+birman,ru:2+birman" -option "grp:alt_shift_toggle,lv3:ralt_switch" -print | xkbcomp -I${HOME}/.config/xkb - $DISPLAY
 ```
 
-Or you may use install script. It creates `~/.config/xkb/symbols/` dir, copies `birman` file and adds `setxkbmap` command to `~/.xprofile`
+`grp:alt_shift_toggle` means switch layouts by press `Alt+Shit`. You may set up other keys,
+see other options in `/usr/share/X11/xkb/rules/base.lst` file under `! option` block.
+
+
+Or you can use install script. It creates `~/.config/xkb/symbols/` dir, copies `birman` file and adds `setxkbmap` command to `~/.xprofile`
 ```bash
 ./install.sh
 ```
 
-`grp:alt_shift_toggle` means switch layouts by press `Alt+Shit`. You may set up other keys,
-see other options in `/usr/share/X11/xkb/rules/base.lst` file under `! option` block.
 
