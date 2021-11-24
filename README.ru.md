@@ -75,7 +75,7 @@ setxkbmap -layout "us+birman,ru:2+birman" -option "grp:alt_shift_toggle,lv3:ralt
 `grp:alt_shift_toggle` означает, что переключение раскладки осуществляется комбинацией `Alt+Shit`. 
 Другие варианты переключений можно посмотреть в файле `/usr/share/X11/xkb/rules/base.lst` под блоком `! option`.
 
-Либо вы можете воспользоваться готовым скриптом, который создаст папку `~/.config/xkb/symbols/`, скопирует туда файл `birman` и добавит команду `setxkbmap` в `~/.xprofile`
+Либо вы можете воспользоваться готовым скриптом, который создаст папку `~/.config/xkb/symbols/`, скопирует туда файл `birman`, добавит команду `setxkbmap` в `~/.xprofile` и активирует раскладку.
 ```bash
 ./install.sh
 ```

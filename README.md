@@ -74,7 +74,7 @@ setxkbmap -layout "us+birman,ru:2+birman" -option "grp:alt_shift_toggle,lv3:ralt
 see other options in `/usr/share/X11/xkb/rules/base.lst` file under `! option` block.
 
 
-Or you can use install script. It creates `~/.config/xkb/symbols/` dir, copies `birman` file and adds `setxkbmap` command to `~/.xprofile`
+Or you can use install script. It creates `~/.config/xkb/symbols/` dir, copies `birman` file and adds `setxkbmap` command to `~/.xprofile`, activates layout.
 ```bash
 ./install.sh
 ```
